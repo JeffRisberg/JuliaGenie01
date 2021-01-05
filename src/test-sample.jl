@@ -14,8 +14,8 @@ end
 
 function PersonsController.query_people(conn)
   df = DataFrame( id = [1, 2],
-                  first = ["David", "Michelle"],
-                  last = ["Smith", "Williams"] )
+                  first = ["Luke", "Frodo"],
+                  last = ["Skywalker", "Baggins"] )
   @info df
   return df
 end
@@ -24,7 +24,7 @@ function PersonsController.html_display(my_people_list)
   @info my_people_list
   @info length(my_people_list)
   # Then
-  @test 2 == length(my_people_list)  
+  @test 2 == length(my_people_list)
 end
 
 # When
