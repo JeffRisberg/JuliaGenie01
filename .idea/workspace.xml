@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b4d930-48f4-44b9-ad4e-9bb5613a253a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/resources/persons/PersonsController.jl" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/resources/persons/PersonsController.jl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genieapp.jl" beforeDir="false" afterPath="$PROJECT_DIR$/src/genieapp.jl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test-sample.jl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-sample.jl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +154,7 @@
       <updated>1609814009466</updated>
       <workItem from="1609814013019" duration="180000" />
       <workItem from="1609814205862" duration="304000" />
-      <workItem from="1609814539122" duration="1630000" />
+      <workItem from="1609814539122" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="updated sample data">
       <created>1609814726519</created>
@@ -167,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609814726519</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed to new version of MySql package">
+      <created>1611630929110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611630929110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated sample data" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated sample data" />
+    <MESSAGE value="changed to new version of MySql package" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed to new version of MySql package" />
   </component>
 </project>

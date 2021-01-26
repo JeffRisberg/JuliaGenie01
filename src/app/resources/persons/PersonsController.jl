@@ -1,6 +1,7 @@
 module PersonsController
 
 using Genie.Renderer
+using Genie.Renderer.Html
 using MySQL
 using DataFrames
 
@@ -12,11 +13,12 @@ end
 
 function mysql_connect(db_config)
   conn = DBInterface.connect(MySQL.Connection, db_config.host, db_config.user, db_config.password)
+  DBInterface.execute(conn, "use JuliaGenie01")
   return conn
 end
 
 function query_people(conn)
-  people_result = MySQL.Query(conn, "SELECT id, first, last FROM persons;") |> DataFrame
+  people_result = DBInterface.execute(conn, "SELECT id, first, last FROM persons;") |> DataFrame
   return people_result
 end
 
@@ -25,7 +27,6 @@ function html_display(my_people_list)
 end
 
 function peoplelist(db_config)
-
   conn = mysql_connect(db_config)
 
   people_result = query_people(conn)
