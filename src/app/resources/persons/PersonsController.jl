@@ -1,4 +1,5 @@
 module PersonsController
+
 using Genie.Renderer
 using MySQL
 using DataFrames
@@ -6,16 +7,16 @@ using DataFrames
 struct Person
   id::Integer
   first::String
-  last::String 
+  last::String
 end
 
 function mysql_connect(db_config)
-  conn = MySQL.connect(db_config.host, db_config.user, db_config.password, db = db_config.database)
+  conn = DBInterface.connect(MySQL.Connection, db_config.host, db_config.user, db_config.password)
   return conn
 end
 
 function query_people(conn)
-  people_result = MySQL.Query(conn, "SELECT id, first, last FROM people;") |> DataFrame
+  people_result = MySQL.Query(conn, "SELECT id, first, last FROM persons;") |> DataFrame
   return people_result
 end
 
@@ -39,7 +40,7 @@ function peoplelist(db_config)
     last_name = people_result[i,3]
     person = Person(id, first_name, last_name)
     @info "person: " person
-  
+
     push!(my_people_list, person)
   end
 

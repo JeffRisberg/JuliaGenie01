@@ -4,12 +4,11 @@ using Genie.Renderer
 
 using ConfParser
 
-
 struct DatabaseConfig
-  host::String 
-  user::String 
-  password::String 
-  database::String 
+  host::String
+  user::String
+  password::String
+  database::String
 end
 
 function db_config()
@@ -26,14 +25,13 @@ function db_config()
 end
 
 push!(LOAD_PATH,"$(pwd())")
-push!(LOAD_PATH,"$(pwd())/app/resources/persons/")
+push!(LOAD_PATH,"$(pwd())/src/app/resources/persons/")
 
 myconfig = db_config()
 
-
 using PersonsController
 
-route("/people") do
+route("/persons") do
   PersonsController.peoplelist(myconfig)
 end
 

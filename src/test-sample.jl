@@ -3,7 +3,7 @@ using DataFrames
 
 @test true
 
-push!(LOAD_PATH,"$(pwd())/app/resources/persons/")
+push!(LOAD_PATH,"$(pwd())/src/app/resources/persons/")
 
 using PersonsController
 
