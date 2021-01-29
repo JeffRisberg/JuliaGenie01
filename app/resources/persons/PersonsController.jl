@@ -23,7 +23,7 @@ function query_people(conn)
 end
 
 function html_display(my_people_list)
-  html(:persons, :peoplelist, people = my_people_list)
+    html(:persons, :peoplelist, people = my_people_list)
 end
 
 function peoplelist(db_config)
@@ -36,9 +36,9 @@ function peoplelist(db_config)
   @info "number of people " num_people
 
   for i = 1:size(people_result,1)
-    id = people_result[i,1]
-    first_name = people_result[i,2]
-    last_name = people_result[i,3]
+    id = people_result[i, 1]
+    first_name = people_result[i, 2]
+    last_name = people_result[i, 3]
     person = Person(id, first_name, last_name)
     @info "person: " person
 

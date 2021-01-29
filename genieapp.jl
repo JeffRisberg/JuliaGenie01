@@ -25,7 +25,7 @@ function db_config()
 end
 
 push!(LOAD_PATH,"$(pwd())")
-push!(LOAD_PATH,"$(pwd())/src/app/resources/persons/")
+push!(LOAD_PATH,"$(pwd())/app/resources/persons/")
 
 myconfig = db_config()
 

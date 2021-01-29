@@ -1,4 +1,4 @@
-<h1>My People List: $( length(@vars(:people)) )</h1>
+<h1>Person List: $( length(@vars(:people)) )</h1>
 <ul>
   <% @foreach(@vars(:people)) do person %>
     <li>$(person.first) $(person.last)</li>
