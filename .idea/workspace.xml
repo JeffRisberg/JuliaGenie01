@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b4d930-48f4-44b9-ad4e-9bb5613a253a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/resources/persons/views/peoplelist.jl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/resources/persons/PersonsController.jl" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/resources/persons/PersonsController.jl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/resources/persons/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="org.ice1000.julia.lang.module.ui.JuliaPackageManagerImpl" />
@@ -154,7 +154,7 @@
       <updated>1609814009466</updated>
       <workItem from="1609814013019" duration="180000" />
       <workItem from="1609814205862" duration="304000" />
-      <workItem from="1609814539122" duration="3179000" />
+      <workItem from="1609814539122" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="updated sample data">
       <created>1609814726519</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611630929110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed to new version of MySql package">
+      <created>1611632239767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611632239767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
