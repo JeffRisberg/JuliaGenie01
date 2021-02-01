@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5b4d930-48f4-44b9-ad4e-9bb5613a253a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/persons/views/peoplelist.jl.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/persons/views/peoplelist.jl.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Julia" />
+    <property name="settings.editor.selected.configurable" value="org.ice1000.julia.lang.module.ui.JuliaPackageManagerImpl" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -182,7 +183,9 @@
       <updated>1609814009466</updated>
       <workItem from="1609814013019" duration="180000" />
       <workItem from="1609814205862" duration="304000" />
-      <workItem from="1609814539122" duration="8092000" />
+      <workItem from="1609814539122" duration="8627000" />
+      <workItem from="1611964958547" duration="1646000" />
+      <workItem from="1612039447597" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="updated sample data">
       <created>1609814726519</created>
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611955271924</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="moved the files back into top level directory so that the views could be found.">
+      <created>1611956293641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611956293641</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
