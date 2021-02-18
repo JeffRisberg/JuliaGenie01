@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b4d930-48f4-44b9-ad4e-9bb5613a253a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/resources/persons/views/person.jl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/resources/persons/views/peoplelist.jl.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/persons/views/peoplelist.jl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genieapp.jl" beforeDir="false" afterPath="$PROJECT_DIR$/genieapp.jl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,7 @@
       <workItem from="1611964958547" duration="1646000" />
       <workItem from="1612039447597" duration="1147000" />
       <workItem from="1612154648703" duration="44000" />
-      <workItem from="1614568326104" duration="2302000" />
+      <workItem from="1614568326104" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="updated sample data">
       <created>1609814726519</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612153869392</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="began to get templates working">
+      <created>1614570929946</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614570929946</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +257,7 @@
     <MESSAGE value="changed to new version of MySql package" />
     <MESSAGE value="had to make extra copy of these files, or they didn't get found" />
     <MESSAGE value="moved the files back into top level directory so that the views could be found." />
-    <option name="LAST_COMMIT_MESSAGE" value="moved the files back into top level directory so that the views could be found." />
+    <MESSAGE value="began to get templates working" />
+    <option name="LAST_COMMIT_MESSAGE" value="began to get templates working" />
   </component>
 </project>
