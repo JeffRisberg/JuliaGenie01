@@ -4,6 +4,7 @@
     <list default="true" id="b5b4d930-48f4-44b9-ad4e-9bb5613a253a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/resources/persons/views/peoplelist.jl.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/persons/views/peoplelist.jl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genieapp.jl" beforeDir="false" afterPath="$PROJECT_DIR$/genieapp.jl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +186,9 @@
       <workItem from="1609814205862" duration="304000" />
       <workItem from="1609814539122" duration="8627000" />
       <workItem from="1611964958547" duration="1646000" />
-      <workItem from="1612039447597" duration="986000" />
+      <workItem from="1612039447597" duration="1147000" />
+      <workItem from="1612154648703" duration="44000" />
+      <workItem from="1614568326104" duration="2302000" />
     </task>
     <task id="LOCAL-00001" summary="updated sample data">
       <created>1609814726519</created>
@@ -229,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611956293641</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="moved the files back into top level directory so that the views could be found.">
+      <created>1612153869392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612153869392</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

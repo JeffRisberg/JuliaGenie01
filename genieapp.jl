@@ -35,4 +35,8 @@ route("/persons") do
   PersonsController.peoplelist(myconfig)
 end
 
+route("/hello") do
+    "Hello World"
+end
+
 up(8000, async=false)
